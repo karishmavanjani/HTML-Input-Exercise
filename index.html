@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- first step to a responsive site -->
+    <title>HTML Skeleton</title>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <!-- Your styles should be called here -->
+    <link href="style.css" rel="stylesheet" />
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+  </head>
+
+  <body>
+    <!-- YOUR CONTENT GOES HERE -->
+    <div class="container">
+      <div style="width:100%;height:0;padding-bottom:52%;position:relative;">
+        <iframe src="https://giphy.com/embed/cieDJ2Pd29jbi" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div>
+      <p><a href="https://giphy.com/gifs/subway-cinemagraphs-cieDJ2Pd29jbi">via GIPHY</a></p>
+      <h1>
+        IS YOUR UNLIMITED METRO CARD WORTH IT?</h1>
+
+
+      <form id="commute">
+        <h2> We ask you a series of questions to analyze if an unlimited card will get you your money's worth.</h2>
+        <p>
+          First, tell us your favourite way to commute
+        </p>
+
+
+
+        <select name="commute-pulldown">
+          <option value="Bus">Bus</option>
+          <option value="Subway">Subway</option>
+          <option value="Ferry">Ferry</option>
+          <option value="Taxi & Public Transport" selected>Taxi & Public Transport</option>
+        </select>
+
+
+        <p>
+          Second, tell us how many times a week do you commute by public transport?
+        </p>
+
+        <input type="number" class="public-commute" placeholder="No. of rides">
+
+        <p>How long does your commute take?</p>
+
+        <input type="radio"> 15 minutes
+        <br />
+        <input type="radio" class="radiostyle" checked> 16-30 minutes
+        <br />
+        <input type="radio" class=" radiostyle"> 31-45 minutes
+        <br />
+        <input type="radio" class=" radiostyle"> 46 mins-1 hour
+        <br />
+        <input type="radio" class=" radiostyle"> Over one hour
+        <br />
+        <br />
+        <br />
+        <input type="submit" id=compute name="Worth It?" value="Worth It?" align-item=center;>
+
+
+      </form>
+    </div>
+    <!-- the jQuery library. You need this to be able to use jQuery ($) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Your javascript should be called here -->
+    <script src="main.js"></script>
+    <!-- Your javascript should be called here -->
+  </body>
+
+</html>
